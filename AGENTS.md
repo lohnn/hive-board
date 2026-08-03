@@ -1,15 +1,22 @@
 ---
-description: A kanban board layer on top of the HIVE plugin — visualizes and drives work items (Backlog → Todo → In Progress → Done) bound to HIVE's on-disk state.
+description: "ARCHIVED / MOVED 2026-08-03 — the hive-board viewer now lives inside the HIVE plugin package at projects/evolutional_agent_structure/src/board-viewer/. This directory is a frozen copy; do not edit it. See MOVED.md."
 ---
-# hive-board
+# hive-board — ⚠️ MOVED
 
-> A kanban board layer on top of the HIVE plugin. Visualizes and drives **work items** as they
-> move through Backlog → Todo → In Progress → Done, bound tightly to HIVE's real on-disk state
-> (dreams, capabilities, sessions, HIVEmind messages).
+> **This is no longer the source of truth.** The viewer was absorbed into the HIVE plugin package
+> on 2026-08-03 so HIVE + board ship as ONE npm dependency.
+>
+> **Source now lives at `projects/evolutional_agent_structure/src/board-viewer/`.**
+> Tests: `test/board-viewer/`. Docs: `docs/board-viewer/`. Read **[MOVED.md](MOVED.md)** first —
+> it explains where everything went, how to reach the preserved git history, and why this
+> directory still exists (the container entrypoint still points here).
+>
+> **Do not edit code in this directory.** It is frozen and will silently diverge from the
+> shipping viewer.
 
-This is a **companion layer to HIVE**, not a replacement for it. HIVE remains the coordination
-brain; hive-board is the *observation + intent surface* on top of it — the glanceable "where is
-the work" view HIVE currently lacks.
+---
+
+*The original charter is kept below for context only. Its paths are stale.*
 
 ## Status
 
